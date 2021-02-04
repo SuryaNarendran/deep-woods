@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class timedEnding : MonoBehaviour
 {
-    public void TimedText()
+    public void TimedEnd()
     {
-        Timer.Register(7,ShowText);
+        Timer.Register(4, SceneTransition);
     }
 
-    public void ShowText()
+    public void SceneTransition()
     {
-        GameManager.textBox.PopUp();
-        GameManager.textBox.DisplayText("Hey, what are you still doing here?? The show's over. No fancy credits or anything. Shoo.");
+        SimpleSceneFader.ChangeSceneWithFade("Main Menu");
     }
 }
