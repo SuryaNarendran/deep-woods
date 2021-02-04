@@ -53205,6 +53205,7 @@ GameObject:
   - component: {fileID: 1689214976485504425}
   - component: {fileID: 3063124484400868907}
   - component: {fileID: 2521395988600934921}
+  - component: {fileID: 236217789546307615}
   m_Layer: 0
   m_Name: Boy
   m_TagString: Player
@@ -53212,6 +53213,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!208 &236217789546307615
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236217789546307614}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.4, y: 0.8, z: 0.4}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!108 &870390866759775157
 Light:
   m_ObjectHideFlags: 0
