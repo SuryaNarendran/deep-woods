@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
                 var rotation = Quaternion.Euler(0, angleToRotate, 0);
                 Vector3 targetPosition = rotation * distance + player.transform.position;
                 spirit.ChasePosition(targetPosition);
+                spirit.FollowClosely();
             }
             yield return null;
         }

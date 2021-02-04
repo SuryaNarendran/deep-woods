@@ -67,4 +67,9 @@ public class SpiritBehaviour : MonoBehaviour
     {
         agent.destination = position;
     }
+
+    public void FollowClosely()
+    {
+        agent.stoppingDistance = 0;
+    }
 }

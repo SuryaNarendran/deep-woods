@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: ca37f24e97c1d7f4baaca405d17f346c,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2365,7 +2365,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6381563833338658699, guid: d13ebcb4234ca114f95d7ac218b5bfa1,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 933a8b0929189e54abbcbca397aa7228, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aad56cd3a7ea5f74d9202895e95841e7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -55276,7 +55276,7 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: 'Shyam: This place is freaking me out! I''ve been strange things...lights
+      value: 'Shyam: This place is freaking me out! I''ve been seeing strange things...lights
         floating around the place. I think I''m ill.'
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
