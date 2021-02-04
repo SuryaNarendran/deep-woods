@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class SpiritBehaviour : MonoBehaviour
 {
@@ -11,10 +12,22 @@ public class SpiritBehaviour : MonoBehaviour
 
     private Animator animator;
 
+    public UnityEvent onReachedTarget;
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if( target != null &&
+            Vector3.Distance(transform.position, target.position) < 0.2f)
+        {
+            onReachedTarget?.Invoke();
+            target = null;
+        }
     }
 
     public void SetTarget(Transform newTarget)
