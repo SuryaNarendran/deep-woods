@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: ca37f24e97c1d7f4baaca405d17f346c,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -5516,7 +5516,7 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -5526,8 +5526,35 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: 'Mohan: Thank goodness! I thought I saw something out there...it was
-        all black and scary...'
+      value: 'Mohan: Thank goodness! I thought I saw something moving out there...it
+        was all black and scary...like a monster. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: 'Mohan: I hid from it. Then this light started hovering over my head.
+        I''m so confused, what''s going on?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: 'That was me, dummy...I was searching everywhere for you. There are
+        no monsters in the woods, duh. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: Then again, I thought there were no glowing-light-balls either....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: 'Anyway, they seem to helping us. Let''s get out of here. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[6]
+      value: 'Mohan: Yeah. Let''s go. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -7656,12 +7683,13 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Another one!
+      value: There, another one!
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: I'm glad to see you
+      value: I'm glad to see you. I....um, a few of my friends are still out there,
+        so...
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -10932,7 +10960,7 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -10949,6 +10977,22 @@ PrefabInstance:
       propertyPath: texts.Array.data[2]
       value: 'Sandeep: I thought it was the creepy black thing from before....that
         was so scary...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: That was me as well, silly. Well...I think it was me...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: 'Anyway. Follow the light of my lantern. We''re going to look for the
+        others. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: Sandeep. Ok...hey, wait up!
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -12767,7 +12811,7 @@ PrefabInstance:
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Wait...a light?
+      value: Wait...a light? Hey, wait for me!
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755934, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
@@ -14338,17 +14382,22 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Lead the way, Fairy.
+      value: 'Ok, lead the way, Fairy. '
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: I'll follow you.
+      value: I'm not sure what you even are, or if you're real. But I'll follow you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: Help me find all my friends, won't you ?
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -16454,12 +16503,12 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Here's another one!
+      value: There you are!
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: ...Are these some kind of huge firefly?
+      value: ...Are these some kind of huge firefly? I'm so confused..
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -17185,7 +17234,7 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -17196,6 +17245,11 @@ PrefabInstance:
         type: 3}
       propertyPath: texts.Array.data[1]
       value: Whatever you are?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: Um...hey, wait up!
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -18786,7 +18840,7 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -18796,13 +18850,20 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: 'John: You''re lucky I found you. '
+      value: 'John: You''re lucky I found you. There are these weird lights floating
+        around, I think they''re government drones sent to spy on us. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[2]
-      value: 'John: I should probably follow you to, um,  make sure you don''t get
-        lost again. '
+      value: 'Yeah, I wouldn''t be surprised at this point. I''m going to go look
+        for a way out. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: 'John: Ok. I should probably follow you to, um,  make sure you don''t
+        get lost again. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -20412,7 +20473,7 @@ PrefabInstance:
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
@@ -20427,7 +20488,7 @@ PrefabInstance:
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.data[2]
-      value: 
+      value: How am I going to get home?
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
@@ -22052,12 +22113,13 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: 'Jai: Hey, it''s you. '
+      value: 'Jai: Hey, it''s you. What the heck is this thing that chases me around
+        and floats above my head??'
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: 'Jai: We need to find a way out of here. '
+      value: 'It''s a long story. But...it''s friendly. Come one, we need to go. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -28661,7 +28723,7 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -28672,6 +28734,28 @@ PrefabInstance:
         type: 3}
       propertyPath: texts.Array.data[1]
       value: 'Varun: I''ve never been more glad to see you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: 'Varun: When I saw a bright light chasing after me, I thought I was
+        going to be abducted by aliens!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: 'This alien seems to be...friendly I guess. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: 'Come along, we don''t have time to think too much about it now. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: 'Varun: Can I take a picture at least...Drat. I dropped my camera in
+        the woods somewhere. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -49464,17 +49548,17 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[0]
-      value: Such a warm light...
+      value: You're so bright and warm. What would I have done if you hadn't come...?
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: I'll follow you.
+      value: 'Nobody is going to believe me when we get back, that''s for sure. '
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -49751,7 +49835,7 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -49762,6 +49846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: texts.Array.data[1]
       value: They sure seem real. Are they fairies?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: They don't have wings though. They're just...bright.
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -50674,7 +50763,7 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -50684,7 +50773,12 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
-      value: What the...
+      value: 'Maybe I should be freaking out, but I feel strangely safe. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: 'They''re leading me towards my friends, aren''t they? '
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
@@ -53074,7 +53168,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.6
   m_Radius: 0.4
-  m_SlopeLimit: 45
+  m_SlopeLimit: 10
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -55691,7 +55785,12 @@ PrefabInstance:
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.size
-      value: 9
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: Shyam? Jai? Anyone?
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
@@ -55707,11 +55806,21 @@ PrefabInstance:
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.data[7]
-      value: I guess there's only one thing to do.
+      value: 'We must have gotten separated after we lost the torch. '
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}
       propertyPath: texts.Array.data[8]
+      value: It's past midnight, Mom must be really worried...Brr.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
+        type: 3}
+      propertyPath: texts.Array.data[9]
+      value: I guess there's only one thing to do.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
+        type: 3}
+      propertyPath: texts.Array.data[10]
       value: Keep moving, and try not to freeze.
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
