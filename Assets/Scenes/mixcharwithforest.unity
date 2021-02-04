@@ -5558,6 +5558,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: Mohan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Oh, you're here!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: Mohan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: 'Thank goodness! I thought I saw something moving out there...it was
+        all black and scary...like a monster. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: Mohan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
+      value: I hid from it. Then this light started hovering over my head. I'm so
+        confused, what's going on?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].text
+      value: 'That was me, dummy...I was searching everywhere for you. There are
+        no monsters in the woods, duh. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[4].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[4].text
+      value: Then again, I thought there were no glowing-light-balls either....
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[5].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[5].text
+      value: 'Anyway, they seem to helping us. Let''s get out of here. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[6].name
+      value: Mohan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[6].text
+      value: ' Yeah. Let''s go. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -7688,6 +7766,32 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
+      value: I'm glad to see you. I....um, a few of my friends are still out there,
+        so...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: There, another one!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
       value: I'm glad to see you. I....um, a few of my friends are still out there,
         so...
       objectReference: {fileID: 0}
@@ -11071,6 +11175,72 @@ PrefabInstance:
         type: 3}
       propertyPath: texts.Array.data[5]
       value: Sandeep. Ok...hey, wait up!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: Sandeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Stay back! I've got a...a stick...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: Sandeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: Oh, it's you. Phew!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: Sandeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
+      value: I thought it was the creepy black thing from before....that was so scary...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].text
+      value: That was me as well, silly. Well...I think it was me...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[4].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[4].text
+      value: 'Anyway. Follow the light of my lantern. We''re going to look for the
+        others. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[5].name
+      value: Sandeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[5].text
+      value: ' Ok...hey, wait up!'
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -14496,6 +14666,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: 'Ok, lead the way, Fairy. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: I'm not sure what you even are, or if you're real. But I'll follow you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
+      value: Help me find all my friends, won't you ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -16607,6 +16812,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: There you are!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: ...Are these some kind of huge firefly? I'm so confused..
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -17344,6 +17574,41 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[2]
+      value: Um...hey, wait up!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Thank you for helping me find my friends...um...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: Whatever you are?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
       value: Um...hey, wait up!
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
@@ -18959,6 +19224,54 @@ PrefabInstance:
       propertyPath: texts.Array.data[3]
       value: 'John: Ok. I should probably follow you to, um,  make sure you don''t
         get lost again. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: John
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Oh, there you are! Why did you go wandering off like that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: John
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: 'You''re lucky I found you. There are these weird lights floating around,
+        I think they''re government drones sent to spy on us. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
+      value: 'Yeah, I wouldn''t be surprised at this point. I''m going to go look
+        for a way out. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].name
+      value: John
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[3].text
+      value: 'Ok. I should probably follow you to, um,  make sure you don''t get
+        lost again. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
@@ -22249,6 +22562,32 @@ PrefabInstance:
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
         type: 3}
       propertyPath: texts.Array.data[1]
+      value: 'It''s a long story. But...it''s friendly. Come one, we need to go. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: Jai
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Hey, it's you. What the heck is this thing that chases me around and
+        floats above my head??
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
       value: 'It''s a long story. But...it''s friendly. Come one, we need to go. '
       objectReference: {fileID: 0}
     - target: {fileID: 3144918636049208538, guid: 2e9c2e655b4b3fe4cb48d1cefa41d27e,
@@ -26766,6 +27105,31 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
+      value: Or is this a dream...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Am I imagining things?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
       value: Or is this a dream...
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
@@ -49759,6 +50123,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: You're so bright and warm. What would I have done if you hadn't come...?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: 'Nobody is going to believe me when we get back, that''s for sure. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
@@ -50047,6 +50436,41 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[2]
+      value: They don't have wings though. They're just...bright.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: I don't know if these are real...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: They sure seem real. Are they fairies?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
       value: They don't have wings though. They're just...bright.
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
@@ -51010,6 +51434,41 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[2]
+      value: 'They''re leading me towards my friends, aren''t they? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: Another one. They're so pretty...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
+      value: 'Maybe I should be freaking out, but I feel strangely safe. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[2].text
       value: 'They''re leading me towards my friends, aren''t they? '
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
@@ -52130,6 +52589,31 @@ PrefabInstance:
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
         type: 3}
       propertyPath: texts.Array.data[1]
+      value: It feels like they're showing me which way to go....?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[0].text
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].name
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[1].text
       value: It feels like they're showing me which way to go....?
       objectReference: {fileID: 0}
     - target: {fileID: 3880089033014029370, guid: 813a8fa30c49fcd43b1ad7ef6840a4d5,
@@ -56229,6 +56713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueScreens.Array.data[7].text
       value: 'We must have gotten separated after we lost the torch. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
+        type: 3}
+      propertyPath: dialogueScreens.Array.data[8].name
+      value: You
       objectReference: {fileID: 0}
     - target: {fileID: 7317020423225755933, guid: 18ec4e2a52212dd46895d0ffe5a409ef,
         type: 3}

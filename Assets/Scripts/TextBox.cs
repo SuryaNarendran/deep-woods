@@ -44,6 +44,12 @@ public class TextBox : MonoBehaviour
         text.text = textContent;
     }
 
+    public void DisplayText(DialogueScreen content)
+    {
+        text.text = content.text;
+        speakerNameText.text = content.name;
+    }
+
     public void PlayTextSound()
     {
         audioSource.PlayOneShot(textClip);

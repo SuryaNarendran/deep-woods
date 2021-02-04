@@ -35,7 +35,8 @@ public class Dialogue : MonoBehaviour
         currentIndex = 0;
         onDialogueStart?.Invoke();
         GameManager.textBox.PopUp();
-        GameManager.textBox.DisplayText(texts[currentIndex]);
+        //GameManager.textBox.DisplayText(texts[currentIndex]);
+        GameManager.textBox.DisplayText(dialogueScreens[currentIndex]);
     }
 
     private void Update()
@@ -60,7 +61,8 @@ public class Dialogue : MonoBehaviour
                 }
                 else
                 {
-                    GameManager.textBox.DisplayText(texts[currentIndex]);
+                    //GameManager.textBox.DisplayText(texts[currentIndex]);
+                    GameManager.textBox.DisplayText(dialogueScreens[currentIndex]);
                 }
             }
         }
