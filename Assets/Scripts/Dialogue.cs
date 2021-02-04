@@ -8,6 +8,8 @@ public class Dialogue : MonoBehaviour
     [TextArea]
     public string[] texts;
 
+    public DialogueScreen[] dialogueScreens;
+
     private bool dialogueActive;
 
     private int currentIndex = 0;
@@ -65,4 +67,12 @@ public class Dialogue : MonoBehaviour
     }
 
 
+}
+[System.Serializable]
+public class DialogueScreen
+{
+    [TextArea]
+    public string text;
+    public string name = "You";
+    public Color color = new Color(201,201,201,141);
 }

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TextBox : MonoBehaviour
 {
     [SerializeField] Text text;
+    [SerializeField] Text speakerNameText;
     [SerializeField] AudioClip textClip;
 
     bool isUp;
